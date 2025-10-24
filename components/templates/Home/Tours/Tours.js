@@ -8,12 +8,12 @@ import Image from "next/image";
 
 const Tours = () => {
   return (
-    <div className="w-full my-[100px]  flex flex-col">
+    <div className="w-full my-[80px]  flex flex-col">
       <div className="flex flex-col justify-center my-20">
         <p className="text-green-900 font-primary text-[25px] font-semibold">
           پکیج های تور
         </p>
-        <h2 className="text-5xl sm:text-6xl md:text-6xl lg:text-[60px] font-bold font-primary text-gray-800 leading-[90px]">
+        <h2 className="text-5xl sm:text-6xl md:text-6xl lg:text-[60px] font-bold font-primary text-gray-800 leading-tight md:leading-[70px]">
           مکان های شگفت انگیز در سراسر جهان
         </h2>
       </div>
@@ -34,7 +34,7 @@ const Tours = () => {
           <div className="flex flex-col gap-3 shadow-md rounded-xl max-w-[400px]">
             <Image src="/images/Image (5).png" width={550} height={450} />
             <div className="flex flex-col gap-3 p-5">
-              <h3 className="text-3xl font-semibold font-primary">
+              <h3 className="2xl:text-3xl xl:text-2xl lg:text-xl font-semibold font-primary">
                 در میان خیابان های پر پیچ و خم و پوشیده از برف عاشق شوید
               </h3>
               <p className="text-lg font-primary text-gray-500">پراگ - چک</p>
@@ -47,7 +47,7 @@ const Tours = () => {
                 <span className="text-lg font-primary text-gray-500">
                   10 روزه
                 </span>
-                <span className="text-3xl font-primary text-green-800 font-semibold">
+                <span className="2xl:text-3xl xl:text-2xl lg:text-xl font-primary text-green-800 font-semibold">
                   $200
                 </span>
               </div>
@@ -58,7 +58,7 @@ const Tours = () => {
           <div className="flex flex-col gap-3 shadow-md rounded-xl max-w-[400px]">
             <Image src="/images/Image (6).png" width={550} height={450} />
             <div className="flex flex-col gap-3 p-5">
-              <h3 className="text-3xl font-semibold font-primary">
+              <h3 className="2xl:text-3xl xl:text-2xl lg:text-xl font-semibold font-primary">
                 تاریخ درباره گذشته نیست بلکه نقشه ای از گذشته است
               </h3>
               <p className="text-lg font-primary text-gray-500">پکن - چین</p>
@@ -71,7 +71,7 @@ const Tours = () => {
                 <span className="text-lg font-primary text-gray-500">
                   10 روزه
                 </span>
-                <span className="text-3xl font-primary text-green-800 font-semibold">
+                <span className="2xl:text-3xl xl:text-2xl lg:text-xl font-primary text-green-800 font-semibold">
                   $450
                 </span>
               </div>
@@ -82,11 +82,11 @@ const Tours = () => {
           <div className="flex flex-col gap-3 shadow-md rounded-xl max-w-[400px]">
             <Image src="/images/Image (7).png" width={550} height={450} />
             <div className="flex flex-col gap-3 p-5">
-              <h3 className="text-3xl font-semibold font-primary">
+              <h3 className="2xl:text-3xl xl:text-2xl lg:text-xl font-semibold font-primary">
                 شخصیت منحصر به فرد به عنوان نماد سلیقه و خودنمایی
               </h3>
               <p className="text-lg font-primary text-gray-500">
-                استانول - ترکیه
+                استانبول - ترکیه
               </p>
 
               <div className="flex justify-end">
@@ -97,7 +97,7 @@ const Tours = () => {
                 <span className="text-lg font-primary text-gray-500">
                   10 روزه
                 </span>
-                <span className="text-3xl font-primary text-green-800 font-semibold">
+                <span className="2xl:text-3xl xl:text-2xl lg:text-xl font-primary text-green-800 font-semibold">
                   $200
                 </span>
               </div>
@@ -108,7 +108,7 @@ const Tours = () => {
           <div className="flex flex-col gap-3 shadow-md rounded-xl max-w-[400px]">
             <Image src="/images/image (6).png" width={550} height={450} />
             <div className="flex flex-col gap-3 p-5">
-              <h3 className="text-3xl font-semibold font-primary">
+              <h3 className="2xl:text-3xl xl:text-2xl lg:text-xl font-semibold font-primary">
                 در میان خیابان های پر پیچ و خم و پوشیده از برف عاشق شوید
               </h3>
               <p className="text-lg font-primary text-gray-500">پراگ - چک</p>
@@ -121,7 +121,7 @@ const Tours = () => {
                 <span className="text-lg font-primary text-gray-500">
                   10 روزه
                 </span>
-                <span className="text-3xl font-primary text-green-800 font-semibold">
+                <span className="2xl:text-3xl xl:text-2xl lg:text-xl font-primary text-green-800 font-semibold">
                   $150
                 </span>
               </div>

@@ -8,12 +8,12 @@ import Image from "next/image";
 
 const Comments = () => {
   return (
-    <div className="w-full max-w-[1400px] mb-[50px]">
+    <div className="w-full  mb-[50px]">
       <div className="flex w-full flex-col justify-center items-center my-20">
         <p className="text-green-900 font-primary text-[25px] font-semibold">
           نظرات کاربران
         </p>
-        <h2 className="text-[72px] max-w-[50%] font-bold font-primary text-gray-800 leading-[90px]">
+        <h2 className="text-5xl sm:text-6xl md:text-6xl lg:text-[60px] font-bold font-primary text-gray-800 leading-tight md:leading-[70px]">
           مسافران ما در سراسر جهان
         </h2>
       </div>
@@ -55,7 +55,7 @@ const Comments = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col justify-center text-center items-center max-w-[380px] min-h-[400px] gap-3 shadow-xl rounded-xl relative">
+          <div className="flex flex-col justify-center text-center items-center p-10  max-w-[380px] min-h-[400px] gap-3 shadow-xl rounded-xl relative">
             <Image
               src="/images/Vector.png"
               width={34}
@@ -70,12 +70,7 @@ const Comments = () => {
             </h4>
             <p className="text-lg font-primary">پزشک</p>
             <div>
-              <Image
-                src="/images/Stars.png"
-                width={80}
-                height={16}
-                className="w-full"
-              />
+              <Image src="/images/Stars.png" width={80} height={16} />
             </div>
             <p className="font-primary text-lg justify-evenly text-center">
               گواهی‌ها کار می‌کنند، زیرا فروشندگان قوی نیستند، با صدایی

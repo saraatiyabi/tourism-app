@@ -3,7 +3,7 @@ import TourCard from "../TourCard/TourCard";
 
 const AllTours = () => {
   return (
-    <div className="w-full max-w-[1400px] mb-[50px]">
+    <div className="w-full mb-[50px]">
       <div className="flex w-full flex-col justify-center items-center gap-6 mt-10">
         <h2 className="text-[50px] max-w-[768px] font-bold font-primary text-gray-800 leading-[68px] text-center">
           اگر به اندازه کافی به آن پایبند باشیم، می توانیم هر کاری که بخواهیم
@@ -24,7 +24,7 @@ const AllTours = () => {
             </button>
           </div>
 
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex flex-row items-center justify-between gap-5">
             <TourCard image="image (10).png" width={177} height={144} />
             <TourCard image="image (11).png" width={177} height={144} />
           </div>

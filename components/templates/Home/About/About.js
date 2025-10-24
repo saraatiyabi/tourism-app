@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="w-full  flex justify-between gap-x-16 items-center">
       <div className="flex-1 flex justify-between">
-        <div className="relative w-full h-[665px]">
+        <div className="relative w-full h-[600px]">
           <Image
             src="/images/Back.png"
-            className="absolute left-0 top-0 w-[50vw] sm:w-[40vw] md:w-[30vw] lg:w-[28vw] h-auto"
-            width={355}
-            height={569}
+            className="absolute left-0 top-0 w-[50vw] sm:w-[40vw] md:w-[30vw] lg:w-[25vw] h-auto"
+            width={340}
+            height={500}
           />
           <Image
             src="/images/Front.png"
