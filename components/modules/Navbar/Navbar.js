@@ -144,8 +144,8 @@ const Navbar = () => {
               : "-translate-y-4 opacity-0 invisible"
           }`}
         >
-          <div className="mx-4 bg-white rounded-lg shadow-2xl border border-green-200 overflow-hidden z-[999]">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="w-full bg-white rounded-b-lg shadow-2xl  overflow-hidden z-[999]">
+            <div className="pt-2 px-3 pb-3 space-y-1">
               {menuItems.map((item) => (
                 <Link
                   key={item.name}
