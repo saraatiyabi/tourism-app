@@ -10,9 +10,9 @@ import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between items-center h-auto md:h-screen py-8 md:py-0">
-      <div className="flex-1 flex flex-col justify-center text-center md:text-right mb-8 md:mb-0">
-        <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-[60px] font-bold font-primary text-gray-800 leading-tight md:leading-[70px]">
+    <div className="w-full flex flex-col-reverse md:flex-row justify-between items-center h-auto md:h-screen py-8 md:py-0">
+      <div className="flex-1 mt-10 flex flex-col justify-center text-center md:text-right mb-8 md:mb-0">
+        <h1 className="text-4xl sm:text-6xl md:text-6xl lg:text-[60px] font-bold font-primary text-gray-800 leading-tight md:leading-[70px]">
           جرات داشتن زندگی موردنظر خود را داشته باشید!
         </h1>
         <span className="text-xl sm:text-2xl md:text-3xl lg:text-xl font-primary text-gray-500 mt-5">
