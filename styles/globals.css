@@ -15,6 +15,18 @@
   }
 }
 
+/* Ensure proper scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent body scroll when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
 /* swiper styles */
 .swiper {
   width: 100%;
