@@ -162,7 +162,7 @@ const Form = () => {
           <input
             type="tel"
             placeholder="شماره تلفن"
-            className="border-none outline-none w-full text-base md:text-lg bg-transparent"
+            className="border-none text-right outline-none w-full text-base md:text-lg bg-transparent"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
