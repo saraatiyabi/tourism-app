@@ -43,7 +43,7 @@ const Navbar = () => {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className={`px-3 lg:px-4 py-2 rounded-lg text-base lg:text-lg font-medium transition-all duration-200 ${
+                    className={`px-3 lg:px-4 py-2 rounded-lg text-base lg:text-lg font-bold transition-all duration-200 ${
                       activeItem === item.name
                         ? "text-green-800 bg-green-100 border-b-2 border-b-green-600"
                         : "text-gray-600 hover:text-green-700 hover:bg-green-50"
@@ -60,13 +60,13 @@ const Navbar = () => {
           {/* Auth Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-3 lg:space-x-4 space-x-reverse">
             <Link
-              className="bg-green-700 hover:bg-green-800 text-white px-4 lg:px-6 py-2 rounded-2xl text-base lg:text-lg font-medium transition-colors duration-200 shadow-sm hover:shadow-md"
+              className="bg-green-700 hover:bg-green-800 text-white px-4 lg:px-6 py-2 rounded-2xl text-base lg:text-lg font-bold transition-colors duration-200 shadow-sm hover:shadow-md"
               href="/register"
             >
               ثبت نام
             </Link>
             <Link
-              className="text-gray-600 hover:text-green-700 px-3 lg:px-4 py-2 text-base lg:text-lg font-medium transition-colors duration-200"
+              className="text-gray-600 hover:text-green-700 px-3 lg:px-4 py-2 text-base lg:text-lg font-bold transition-colors duration-200"
               href="/login"
             >
               ورود
@@ -76,7 +76,7 @@ const Navbar = () => {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-3 space-x-reverse">
             <Link
-              className="bg-green-700 text-white px-3 py-2 rounded-xl text-sm font-medium"
+              className="bg-green-700 text-white px-3 py-2 rounded-xl text-sm font-bold"
               href="/register"
             >
               ثبت نام
@@ -121,7 +121,7 @@ const Navbar = () => {
             <Link
               key={item.name}
               href={item.href}
-              className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors duration-200 ${
+              className={`block px-4 py-3 rounded-lg text-base font-bold transition-colors duration-200 ${
                 activeItem === item.name
                   ? "text-green-800 bg-green-100 border-r-2 border-r-green-600"
                   : "text-gray-600 hover:text-green-700 hover:bg-green-50"
@@ -133,7 +133,7 @@ const Navbar = () => {
           ))}
           <div className="pt-2 border-t border-green-200">
             <Link
-              className="block text-center text-gray-600 hover:text-green-700 px-4 py-3 text-base font-medium transition-colors duration-200"
+              className="block text-center text-gray-600 hover:text-green-700 px-4 py-3 text-base font-bold transition-colors duration-200"
               href="/login"
               onClick={() => setIsMenuOpen(false)}
             >
