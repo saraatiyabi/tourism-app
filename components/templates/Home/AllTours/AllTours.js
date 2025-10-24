@@ -39,7 +39,7 @@ const AllTours = () => {
           {/* Small Cards Grid */}
           <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-5 lg:gap-6">
             {/* Top Small Cards for mobile, side by side for larger screens */}
-            <div className="flex flex-row items-center justify-center gap-4 md:gap-5 lg:gap-6 w-full max-w-md sm:max-w-none">
+            <div className="flex flex-row items-center justify-center gap-4 md:gap-5 lg:gap-3 w-full max-w-md sm:max-w-none">
               <TourCard
                 image="image (10).png"
                 width={177}

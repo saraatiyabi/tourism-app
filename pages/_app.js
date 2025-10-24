@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }) {
       <main className="relative z-0">
         <Component {...pageProps} />
       </main>
+      <Footer />
     </div>
   );
 }

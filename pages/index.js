@@ -4,6 +4,7 @@ import About from "@/components/templates/Home/About/About";
 import Tours from "@/components/templates/Home/Tours/Tours";
 import Comments from "@/components/templates/Home/Comments/Comments";
 import AllTours from "@/components/templates/Home/AllTours/AllTours";
+import Footer from "@/components/modules/Footer/Footer";
 
 const Home = () => {
   return (
